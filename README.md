@@ -1,3 +1,3 @@
 #Kokoa Clone 2024
 
-HTML&CSS is finished!
+HTML&CSS is NOT finished!
