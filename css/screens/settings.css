@@ -1,0 +1,34 @@
+.settings__setting{
+    padding:20px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+ }
+
+
+
+@keyframes settingSlide{
+   from{
+      transform: translateX(50px);
+   } 
+   to{
+      transform: none;
+   }
+}
+
+.settings__setting:hover{
+   animation: settingSlide 0.5s ease-in-out forwards;
+}
+
+
+.settings__setting i{
+    margin-right: 15px;
+    opacity: 0.7;
+}
+.settings__setting-column:last-child{
+   opacity: 0.2;
+}
+
